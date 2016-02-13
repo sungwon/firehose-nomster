@@ -32,6 +32,9 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'rails_12factor', group: :production
 
+# pagination
+gem 'will_paginate', '~> 3.0.6'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
